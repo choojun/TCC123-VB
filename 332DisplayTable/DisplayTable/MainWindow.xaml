@@ -1,0 +1,24 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DisplayTable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:BooksDataSet x:Key="BooksDataSet"/>
+        <CollectionViewSource x:Key="AuthorsViewSource" Source="{Binding Authors, Source={StaticResource BooksDataSet}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource AuthorsViewSource}" Background="#FF3DD425">
+        <DataGrid x:Name="AuthorsDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="62,63,56,59" RowDetailsVisibilityMode="VisibleWhenSelected" Background="#FF86AC66">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="AuthorIDColumn" Binding="{Binding AuthorID}" Header="Author ID" IsReadOnly="True" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="FirstNameColumn" Binding="{Binding FirstName}" Header="First Name" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="LastNameColumn" Binding="{Binding LastName}" Header="Last Name" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="My Records in SQL Server Database" HorizontalAlignment="Left" Margin="62,0,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="24"/>
+
+    </Grid>
+</Window>

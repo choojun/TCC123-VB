@@ -1,0 +1,13 @@
+﻿<!-- Defining a Polygon representing a star in XAML. -->
+<Window x:Class="DrawStars"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DrawStars" Height="330" Width="330" Name="DrawStars">
+   <Canvas Name="mainCanvas"> <!-- Main canvas of the application -->
+ 
+      <!-- Polygon with points that make up a star -->
+        <Polygon Name="star" Fill="#8DC73F" Points="205,150 217,186 259,186 
+         223,204 233,246 205,222 177,246 187,204 151,186 193,186" />
+   </Canvas>
+</Window>
+
