@@ -24,8 +24,10 @@ Module EmployeeTest
         Console.WriteLine("Employee 1: " & emp1.FirstName & " " & _
            emp1.LastName & "; Yearly Salary: " & _
            12 * emp1.MonthlySalary)
-        Console.WriteLine("Employee 2: " & emp2.FirstName & " " & _
-           emp2.LastName & "; Yearly Salary: " & _
+        Console.WriteLine("Employee 2: " & emp2.FirstName & " " &
+           emp2.LastName & "; Yearly Salary: " &
            12 * emp2.MonthlySalary)
+
+        Console.ReadLine()
     End Sub
 End Module

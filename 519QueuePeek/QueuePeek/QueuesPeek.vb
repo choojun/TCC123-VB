@@ -52,6 +52,7 @@
         ' Display the Queue.
         Console.WriteLine("intQueue values:")
         DisplayValues(intQueue)
+        Console.ReadLine()
     End Sub 'Main
 
 End Module

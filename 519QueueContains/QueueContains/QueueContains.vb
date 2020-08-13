@@ -14,6 +14,7 @@
         Console.WriteLine("numbers.Clear()")
         numbers.Clear()
         Console.WriteLine("numbers.Count = {0}", numbers.Count)
+        Console.ReadLine()
     End Sub
 
 End Module

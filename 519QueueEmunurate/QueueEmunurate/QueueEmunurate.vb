@@ -12,6 +12,7 @@
         For Each number As String In numbers
             Console.WriteLine(number)
         Next
+        Console.ReadLine()
     End Sub
 
 End Module

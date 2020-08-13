@@ -12,6 +12,7 @@ Module StoredDictionaryTest
 
         ' display sorted dictionary content
         DisplayDictionary(dictionary)
+        Console.ReadLine()
     End Sub
 
     ' create sorted dictionary 

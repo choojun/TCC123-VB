@@ -10,7 +10,7 @@ Module StackTest
         Dim aBoolean As Boolean = True
         Dim aCharacter As Char = "$"
         Dim anInteger As Integer = 12345
-        Dim aString As String = "Visual"
+        Dim aString As String = "VisualProgramming"
 
         ' use method Push to add items to (the top of) the stack
         stack.Push(aBoolean)
@@ -37,6 +37,8 @@ Module StackTest
             ' if exception occurs, print stack trace
             Console.Error.WriteLine(exception)
         End Try
+
+        Console.ReadLine()
     End Sub ' Main
 
     ' print the contents of a stack

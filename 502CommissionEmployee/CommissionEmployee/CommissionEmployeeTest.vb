@@ -24,7 +24,9 @@ Module CommissionEmployeeTest
            vbCrLf & employee.ToString() & vbCrLf)
 
         ' display the employee's earnings
-        Console.WriteLine("Employee's earnings: {0:C}", _
+        Console.WriteLine("Employee's earnings: {0:C}",
            employee.CalculateEarnings())
+
+        Console.ReadLine()
     End Sub
 End Module
