@@ -147,6 +147,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "207_ArithmeticRules_Q2", "2
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "207_ArithmeticRules_Q3", "207_ArithmeticRules_Q3\207_ArithmeticRules_Q3.vbproj", "{0930DF66-97D9-437F-B643-F2B870087B7B}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "208_MsgBox", "208_MsgBox\208_MsgBox.vbproj", "{502CAA59-E8E7-4AE3-A103-690A5714F608}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "208_MsgBox_ArithmeticRule_Q3", "208_MsgBox_ArithmeticRule_Q3\208_MsgBox_ArithmeticRule_Q3.vbproj", "{BE68CEDB-5169-4B41-9302-90B00B4E6B81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -421,6 +425,14 @@ Global
 		{0930DF66-97D9-437F-B643-F2B870087B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0930DF66-97D9-437F-B643-F2B870087B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0930DF66-97D9-437F-B643-F2B870087B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502CAA59-E8E7-4AE3-A103-690A5714F608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502CAA59-E8E7-4AE3-A103-690A5714F608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502CAA59-E8E7-4AE3-A103-690A5714F608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502CAA59-E8E7-4AE3-A103-690A5714F608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE68CEDB-5169-4B41-9302-90B00B4E6B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE68CEDB-5169-4B41-9302-90B00B4E6B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE68CEDB-5169-4B41-9302-90B00B4E6B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE68CEDB-5169-4B41-9302-90B00B4E6B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
