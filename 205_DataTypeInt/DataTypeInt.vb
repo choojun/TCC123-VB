@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module DataTypeInt
 
     Sub Main()
         ' variables used in addition calculation

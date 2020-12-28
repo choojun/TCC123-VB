@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{ACFCBD7E-7119-41D6-9121-BA14FEE8472B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>_205_DataTypeInt.Module1</StartupObject>
+    <StartupObject>_205_DataTypeInt.DataTypeInt</StartupObject>
     <RootNamespace>_205_DataTypeInt</RootNamespace>
     <AssemblyName>205_DataTypeInt</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="DataTypeInt.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module CalculateProfit
 
     Sub Main()
         Dim revenue, costs, profits As Double

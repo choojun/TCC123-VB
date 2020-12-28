@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C4A13836-949B-4E83-9089-3DFEBA51FE95}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>_207_ArithmeticRules_Q2.Module1</StartupObject>
+    <StartupObject>_207_ArithmeticRules_Q2.ArithmeticRule_Q2</StartupObject>
     <RootNamespace>_207_ArithmeticRules_Q2</RootNamespace>
     <AssemblyName>207_ArithmeticRules_Q2</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="ArithmeticRule_Q2.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

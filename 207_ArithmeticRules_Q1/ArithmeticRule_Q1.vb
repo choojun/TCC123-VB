@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module ArithmeticRule_Q1
 
     Sub Main()
         Dim f As Double = 1

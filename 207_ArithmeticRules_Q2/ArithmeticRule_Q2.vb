@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module ArithmeticRule_Q2
 
     Sub Main()
         Dim a As Double = 5 + 3 * 4 / 2 - 2

@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module Arithmetic
 
     Sub Main()
         Dim x As Integer = 25

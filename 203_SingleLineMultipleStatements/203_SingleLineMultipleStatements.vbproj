@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E909DF9B-872E-4E5F-9C96-BE40C0202FAE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>_203_SingleLineMultipleStatements.Module1</StartupObject>
+    <StartupObject>_203_SingleLineMultipleStatements.SingleLineMultipleStatements</StartupObject>
     <RootNamespace>_203_SingleLineMultipleStatements</RootNamespace>
     <AssemblyName>203_SingleLineMultipleStatements</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="SingleLineMultipleStatements.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

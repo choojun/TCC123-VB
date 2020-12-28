@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module ArithmeticRule_Q3
 
     Sub Main()
         Dim num1, num2 As Integer
