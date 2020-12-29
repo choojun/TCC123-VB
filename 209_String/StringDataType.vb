@@ -28,6 +28,7 @@ Module StringDataType
         MessageBox.Show(myMsg)
 
 
+
         stringOne = "Hello World"
 
         ' return the length of a string
