@@ -151,6 +151,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "208_MsgBox", "208_MsgBox\20
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "208_MsgBox_ArithmeticRule_Q3", "208_MsgBox_ArithmeticRule_Q3\208_MsgBox_ArithmeticRule_Q3.vbproj", "{BE68CEDB-5169-4B41-9302-90B00B4E6B81}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "209_String", "209_String\209_String.vbproj", "{2A76E7D7-4511-4840-9D4C-1C53D060C489}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -433,6 +435,10 @@ Global
 		{BE68CEDB-5169-4B41-9302-90B00B4E6B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE68CEDB-5169-4B41-9302-90B00B4E6B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE68CEDB-5169-4B41-9302-90B00B4E6B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A76E7D7-4511-4840-9D4C-1C53D060C489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A76E7D7-4511-4840-9D4C-1C53D060C489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A76E7D7-4511-4840-9D4C-1C53D060C489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A76E7D7-4511-4840-9D4C-1C53D060C489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
