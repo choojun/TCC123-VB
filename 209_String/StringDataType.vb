@@ -53,5 +53,22 @@ Module StringDataType
         Console.WriteLine("stringOne contains the letter r?: {0}",
                 stringOne.Contains("r"))
 
+
+
+
+
+        Console.WriteLine("whippersnapper".IndexOf("pp", 5))
+        Console.WriteLine("VCC 5001".ToLower)
+        Console.WriteLine("Visual Studio".IndexOf("k"))
+        Console.WriteLine("18.18".Length)
+        Console.WriteLine("Fitman".Substring(3))
+
+        Dim orenQuantity As String = "8826"
+        Console.WriteLine("orenQuantity: " & orenQuantity.IndexOf("2"))
+
+        Dim appleQuantity As String = "Double"
+        Console.WriteLine("appleQuantity:" + appleQuantity.Length)
+
+
     End Sub
 End Module
