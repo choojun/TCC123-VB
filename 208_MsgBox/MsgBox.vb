@@ -3,7 +3,6 @@
 Module MsgBox
 
     Sub Main()
-
         Dim pi As Double = Math.PI
         MessageBox.Show(pi & "", "pi")
         MessageBox.Show(Math.Round(Math.PI, 2) _

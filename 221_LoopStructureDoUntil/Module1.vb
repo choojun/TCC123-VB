@@ -9,6 +9,15 @@
             Console.Write(number & " ")
             number = number * 2
         Loop
+        Console.WriteLine()
+
+        Dim payAmt As Integer = 500
+        Do Until payAmt > 200
+            'Processing steps
+            payAmt = payAmt - 50
+        Loop
+        Console.WriteLine(payAmt)
+
     End Sub
 
 End Module
