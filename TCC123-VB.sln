@@ -214,6 +214,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "233_MethodOverLoading", "23
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "234_MethodLambdaExpression", "234_MethodLambdaExpression\234_MethodLambdaExpression.vbproj", "{61898AC3-1324-4A48-94F0-0B18B7601D75}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "205_DataTypeIntConvert", "205_DataTypeIntConvert\205_DataTypeIntConvert.vbproj", "{37DCAFAA-B6B4-43F9-8486-21B62BFF9F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -620,6 +622,10 @@ Global
 		{61898AC3-1324-4A48-94F0-0B18B7601D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61898AC3-1324-4A48-94F0-0B18B7601D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61898AC3-1324-4A48-94F0-0B18B7601D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DCAFAA-B6B4-43F9-8486-21B62BFF9F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DCAFAA-B6B4-43F9-8486-21B62BFF9F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DCAFAA-B6B4-43F9-8486-21B62BFF9F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DCAFAA-B6B4-43F9-8486-21B62BFF9F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
