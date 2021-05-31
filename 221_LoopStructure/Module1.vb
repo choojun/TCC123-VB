@@ -9,6 +9,7 @@
             number = number - 8
         Loop
 
+        'observe the following Do-Until loop, any problems?
         Console.Write("Enter a number (less than or equal 8): ")
         number = Console.ReadLine()
         Do Until number <= 8
