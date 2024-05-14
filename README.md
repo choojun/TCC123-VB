@@ -6,4 +6,6 @@ Tested under environment as follows.
 2. SQL Server 2017 Express edition
 3. Windows 10
 
+Read more details at https://anyflip.com/mlvzj/tesi/
+
 Happy learning!
